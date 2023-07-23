@@ -1,0 +1,144 @@
+.card-project {
+  display: flex;
+  height: auto;
+  width: 100%;
+  margin: 5rem 0;
+  background-color: var(--color-pages);
+  -webkit-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+  transition: transform 0.3s;
+  animation: slide-in 2s ease-out;
+}
+
+.card-left {
+  width: 60%;
+  padding: 0 1rem 5rem 1rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card-left > a {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 0.5rem;
+  gap: 1rem;
+}
+
+.img-project {
+  height: 20rem;
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 22px 6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 22px 6px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 22px 6px rgba(0,0,0,0.75);
+  object-fit: cover;
+  border-radius: 0;
+  margin-top: -2rem;
+  filter: grayscale(100%);
+  transition: filter 0.8s ease-in-out;
+}
+
+.img-project:hover {
+  filter: none;
+  transition: filter 0.8s ease-in-out;
+}
+
+.container-tech {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  position: absolute;
+  right: 1rem;
+  bottom: 0;
+}
+
+.link-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  filter: invert(99%) sepia(19%) saturate(3512%) hue-rotate(299deg) brightness(98%) contrast(85%);
+  transition: transform 0.3s;
+}
+
+.link-icon:hover {
+  transform: scale(1.1);
+}
+
+.icon-tech {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.card-right {
+  padding: 1rem 2rem;
+  width: 40%;
+}
+
+hr {
+  height: 5px;
+  background-color: var(--color-contrast);
+  margin-bottom: 1.5rem;
+}
+
+.card-right > p {
+  font-weight: 100;
+  text-align: justify;
+}
+
+.info-project {
+  color: #ffffff;
+  font-size: 15px;
+  padding: 4px;
+  -webkit-border-radius: 29px;
+  -moz-border-radius: 29px;
+  border-radius: 29px;
+  -webkit-box-shadow: 0px 0px 0px #666666;
+  -moz-box-shadow: 0px 0px 0px #666666;
+  box-shadow: 0px 0px 0px #666666;
+  border: solid var(--color-contrast) 9px;
+  background-color: var(--color-contrast);
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .card-project {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .card-left {
+      width: 100%;
+  }
+
+  .card-right {
+      width: 100%;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  .img-project {
+      display: none;
+  }
+
+  .card-project {
+      display: flex;
+      flex-direction: column-reverse;
+  }
+
+  .card-right {
+      padding: 2rem 1rem;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .card-project {
+      margin-top: 4rem;
+  }
+  
+}

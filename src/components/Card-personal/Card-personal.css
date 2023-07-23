@@ -1,0 +1,50 @@
+.card-personal {
+  -moz-box-shadow: 10px 10px 5px 1px rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 1px rgba(253, 252, 252, 0.75);
+  align-items: center;
+  animation: slide-in 1.5s ease-out;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px 1px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  transition: transform 0.3s;
+}
+
+.card-personal:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+div > img {
+  border-radius: 5px;
+  height: 200px;
+  object-fit: cover;
+  width: 200px;
+}
+
+.card-personal > p {
+  height: 100%;
+  text-align: justify;
+  width: 40rem;
+}
+
+.card-personal:hover{
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 740px) { 
+  div > img {
+      height: 200px;
+      width: 200px;
+  }
+}
+
+@media screen and (max-width: 590px) { 
+  .card-personal:hover {
+      transform: none;
+  }
+}
