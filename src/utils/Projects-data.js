@@ -68,7 +68,7 @@ export const projectsData = [
       "/icons/javascript.png",
     ],
     link: "",
-    github: "",
+    github: "https://github.com/DaniYeCa/Daniel-s-Portfolio.git",
   },
 
 ]
