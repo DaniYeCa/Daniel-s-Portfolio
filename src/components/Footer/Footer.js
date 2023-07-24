@@ -24,7 +24,7 @@ export const Footer = () => {
         <button id="rrssBtn"><img src="./assets/rrss.png" alt="icon-rrss" /></button>
         <a href="https://github.com/DaniYeCa" target="_blank" class="icon-rrss" ><img class="icon-footer" src="./assets/github.png" alt="icon-github" /></a>
         <a href="https://www.linkedin.com/in/daniel-yepes-carrillo/" target="_blank" class="icon-rrss"><img class="icon-footer" src="./assets/linkedin.png" alt="icon-linkedin" /></a>
-        <a href="public/full stack.pdf" target="_blank" class="icon-rrss" ><img class="icon-footer" src="./assets/cv.png" alt="icon-CV" /></a>
+        <a href="./assets/full stack.pdf" target="_blank" class="icon-rrss" ><img class="icon-footer" src="./assets/cv.png" alt="icon-CV" /></a>
     </section>
 
     <section class="rrss-movil">
