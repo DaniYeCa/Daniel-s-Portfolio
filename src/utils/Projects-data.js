@@ -11,7 +11,7 @@ export const projectsData = [
       "./assets/css-3.png"
     ],
     link: "https://dance-of-empire-daniel-empire.netlify.app/",
-    github: "https://github.com/Brisnayu/PROYECTO1",
+    github: "https://github.com/DaniYeCa/proyecto1.git",
   },
   {
     img: "./assets/El-Chirro.png",
@@ -25,8 +25,8 @@ export const projectsData = [
       "./assets/css-3.png",
       "./assets/javascript.png",
     ],
-    link: "https://proyecto-aracari.netlify.app/",
-    github: "https://github.com/Brisnayu/Creation-of-aracar-project",
+    link: "https://el-chirro-daniel-yepes.netlify.app",
+    github: "https://github.com/DaniYeCa/El-Chirro.git",
   },
   {
     img: "./assets/bat-emporium.png",
@@ -67,7 +67,7 @@ export const projectsData = [
       "./assets/css-3.png",
       "./assets/javascript.png",
     ],
-    link: "",
+    link: "https://projects-3-daniel-portfolio.netlify.app",
     github: "https://github.com/DaniYeCa/Daniel-s-Portfolio.git",
   },
 
