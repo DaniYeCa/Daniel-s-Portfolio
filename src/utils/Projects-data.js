@@ -41,7 +41,7 @@ export const projectsData = [
       "./assets/javascript.png"
     ],
     link: "https://bat-emporium-daniel-yepes.netlify.app/",
-    github: "https://github.com/Brisnayu/PROYECTO1.1",
+    github: "https://github.com/DaniYeCa/Bat-emporium.git",
   },
   {
     img: "./assets/Erotixx.png",
