@@ -10,11 +10,11 @@ export const cardProject = (img, title, goal, description, tech, link, github) =
                 <img class="img-project" src=${img} alt=${goal} />
 
                 <a href=${link} target="_blank">
-                    <img class="link-icon" src="public/icons/cadena.png" alt="icon-link" />
+                    <img class="link-icon" src="./assets/cadena.png" alt="icon-link" />
                 Live preview</a>
 
                 <a href=${github} target="_blank">
-                    <img class="link-icon" src="public/icons/github (1).png" />
+                    <img class="link-icon" src="./assets/github (1).png" />
                 View code</a>
 
                 <div class="container-tech">

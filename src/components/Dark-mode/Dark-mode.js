@@ -6,8 +6,8 @@ export const changeTheme = () => {
     document.body.classList.toggle("light");
 
     document.body.classList.value === "light" ?
-      changeLogoDarkMode.src = "./public/icons/ligth-mode-2.png" :
-      changeLogoDarkMode.src = "./public/icons/dark-mode-2.png";
+      changeLogoDarkMode.src = "./assets/ligth-mode-2.png" :
+      changeLogoDarkMode.src = "./assets/dark-mode-2.png";
 
   });
 };

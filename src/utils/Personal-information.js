@@ -1,6 +1,6 @@
 export const infoPersonal = [
   {
-    photo: "public/images/avatar.jpg",
+    photo: "./assets/avatar.jpg",
     alt: "Sobre mi",
     desc: `Soy Daniel, una persona a la que le encanta aprender siempre algo nuevo para nutrirse de nuevas tecnicas y información ,
     desde muy pequeño siempre he tenido mucha ambicion lo que ha hecho que crezca fuerte mentalmente para estar preparado a nuevas 
@@ -8,7 +8,7 @@ export const infoPersonal = [
     y muy buenos valores, algunos de mis hobbies son escuchar bailar, escuchar musica, leer, hacer derportes etc..`,
   },
   {
-    photo: "public/images/Baile.png",
+    photo: "./assets/Baile.png",
     alt: "Mi vida sobre le baile",
     desc: `Si algo me caracteriza es por estar bailando siempre en cualquier lado, no por eso estoy bailando siempre pero llevo una carrera como bailarin,
     ya que llevo desde los tres años bailando lo que me ha hecho tener momento tanto amargos como enormemente felices gracias a esa pasion tan bonita 
@@ -20,7 +20,7 @@ export const infoPersonal = [
     El baile tambien me ha dado mucha disciplina y el saber trabajar tanto individualmente como en grupo, es algo que me ha ayudado a los largo de mi vida.`,
   },
   {
-    photo: "public/images/liderazgo.png",
+    photo: "./assets/liderazgo.png",
     alt: "Mi glow up",
     desc: `Aqui hablare un poco más sobre mi pero tirando mas a nivel formación y educación, cuando hablo sobre mi 
     glow up me refiero en ese momento en el que pase de mi corta adolescencia a convertirme en una persona fundamental y muy importante,
@@ -31,7 +31,7 @@ export const infoPersonal = [
     de los momentos mas felices de mi vida.`,
   },
   {
-    photo: "public/images/rock-the-code.png",
+    photo: "./assets/rock-the-code.png",
     alt: "Mi formación",
     desc: `Bueno aqui pondre todos los estudios y formaciones que tengo, empecemos con que tengo los estudios obligatorios tando la primaria como la segundaria,
     luego tambien tengo una formacion profesional basica de Electricidad y electronica, que la termine haciendo una formacion doble en la que me sacaba la ESO 

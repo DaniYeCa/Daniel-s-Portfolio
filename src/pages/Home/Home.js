@@ -14,7 +14,7 @@ export const Home = () => {
             
         </div>
         <div class="image">
-            ${Avatar("./images/avatar.jpg", "Avatar Daniel Yepes")}
+            ${Avatar("./assets/avatar.jpg", "Avatar Daniel Yepes")}
         </div>
     </section>
     `;
