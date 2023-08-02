@@ -44,19 +44,6 @@ export const projectsData = [
     github: "https://github.com/DaniYeCa/Bat-emporium.git",
   },
   {
-    img: "./assets/Erotixx.png",
-    title: "Erotixxx",
-    goal: "Landing page",
-    description: `Este projecto fue un reto de cuanto tardaba en crear una landing page tarde unos 30 minutos en realizar la maquetación
-    esta sin terminar y no es responsive pero fue muy gracioso salir de mi zona de confort y fue un reto con mi gran amigo jose miguel diaz`,
-    tech: [
-      "./assets/html.png",
-      "./assets/css-3.png",
-    ],
-    link: "https://erotixxx.netlify.app/",
-    github: "https://github.com/DaniYeCa/Erotixxx.git",
-  },
-  {
     img: "./assets/portfolio.png",
     title: "Portfolio",
     goal: "creacion de mi portfolio",
